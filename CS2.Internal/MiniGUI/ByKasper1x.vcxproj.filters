@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{5A0B3F40-4C8A-4A5A-9E9F-5F0D9E7A1B2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\Backends">
+      <UniqueIdentifier>{6B1C4F50-5D9B-4B6B-AF0F-6G1E0F8B2C3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{7C2D5F60-6E0C-4C7C-BG1G-7H2F1G9C3D4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Combat">
+      <UniqueIdentifier>{8D3E6F70-7F1D-4D8D-CH2H-8I3G2H0D4E5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Misc">
+      <UniqueIdentifier>{9E4F7F80-8G2E-4E9E-DI3I-9J4H3I1E5F6G}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Move">
+      <UniqueIdentifier>{AF5G8G90-9H3F-5FAF-EJ4J-AK5I4J2F6G7H}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Skins">
+      <UniqueIdentifier>{B6G7H9A0-AI4G-6GBG-FK5K-BL6J5K3G7H8I}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{C7H8I0B1-BJ5H-7HCH-GL6L-CM7K6L4H8I9J}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Menu">
+      <UniqueIdentifier>{D8I9J1C2-CK6I-8IDI-HM7M-DN8L7M5I9J0K}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\HUD">
+      <UniqueIdentifier>{E9J0K2D3-DL7J-9JEJ-IN8N-EO9M8N6J0K1L}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>ImGui\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>ImGui\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\menu\MainMenu.cpp">
+      <Filter>GUI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\combat\Aim.cpp">
+      <Filter>Modules\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\misc\Misc.cpp">
+      <Filter>Modules\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\move\Move.cpp">
+      <Filter>Modules\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\skins\Skins.cpp">
+      <Filter>Modules\Skins</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\menu\MainMenu.h">
+      <Filter>GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\menu\Widgets.h">
+      <Filter>GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\combat\Aim.h">
+      <Filter>Modules\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\misc\Misc.h">
+      <Filter>Modules\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\move\Move.h">
+      <Filter>Modules\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\skins\Skins.h">
+      <Filter>Modules\Skins</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
